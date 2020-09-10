@@ -1,6 +1,8 @@
 
 # <u>PATCH 09/010/2020</u>
 
+- Should I host another TESTBED Event? A much bigger one though? Vote on Discord!
+
 - Finishing the Base work for TEAM POLICE Access System. <span class="tooltip"><span>TEAM POLICE is a Discord-claimed job that kills abusers.</span></span> 
 
 
