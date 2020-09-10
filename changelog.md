@@ -1,7 +1,7 @@
 
 # <u>PATCH 09/07/2020</u>
 
-- Added a Developer <span class="tooltip"><span>For Developer Testing only</span></span> Server to the Server Selector.
+- Added a Developer Server to the Server Selector. <span class="tooltip"><span>For Developer Testing only</span></span> 
 
 
 # <u>PATCH 09/06/2020</u>
