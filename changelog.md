@@ -1,6 +1,11 @@
 
 # <u>PATCH 09/07/2020</u>
 
+- Finishing the Base work for TEAM POLICE Access System.
+
+
+# <u>PATCH 09/07/2020</u>
+
 - Added a Developer Server to the Server Selector. <span class="tooltip"><span>For Developer Testing only</span></span> 
 
 
