@@ -1,7 +1,7 @@
 
-# <u>PATCH 09/07/2020</u>
+# <u>PATCH 09/010/2020</u>
 
-- Finishing the Base work for TEAM POLICE Access System.
+- Finishing the Base work for TEAM POLICE Access System. <span class="tooltip"><span>TEAM POLICE is a Discord-claimed job that kills abusers.</span></span> 
 
 
 # <u>PATCH 09/07/2020</u>
