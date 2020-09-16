@@ -1,5 +1,20 @@
 
-# <u>PATCH 09/010/2020</u>
+# <u>PATCH 09/16/2020</u>
+
+- Added 2 Team Protector.
+
+- <b style="color: #00b0e1">BLUE Team</b> has to defend their teams dominator.
+
+- For <b style="color: #ff4545">RED Team</b> to win, they have to destroy Blue's Dominator.
+
+- RED players will spawn on the Top and Bottom and BLUE players will spawn next to the maze walls.
+
+
+
+
+
+
+# <u>PATCH 09/10/2020</u>
 
 - Should I host another TESTBED Event? A much bigger one though? Vote on Discord!
 
