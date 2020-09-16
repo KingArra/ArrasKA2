@@ -1,6 +1,8 @@
 
 # <u>PATCH 09/16/2020</u>
 
+- <b style="color: #ff4545">Please be aware that this Gamemode is still in progress, all bugs and problems should be reported on Discord!</b>
+
 - Added 2 Team Protector.
 
 - <b style="color: #00b0e1">BLUE Team</b> has to defend their teams dominator.
