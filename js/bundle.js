@@ -1161,7 +1161,7 @@
                 c.push(d);
                 break;
               }
-          if (0 === c.length) return "Unknown";
+          if (0 === c.length) return "2 Team Protector";
           a = c[c.length - 1];
           a.end && (a.to = a.end);
           for (a = 0; a + 1 < c.length; a++)
@@ -4274,7 +4274,7 @@
             [
               { id: "d", to: "4TDM Maze" },
               { id: "m", to: "Mothership", remove: "2" },
-              { id: "a", to: "Assault", remove: "2" }
+              { id: "a", to: "2TDM Protector", remove: "2" }
             ]
           ]
         ],
@@ -4292,7 +4292,7 @@
             id: "4",
             type: "4TDM",
             code: "glitch-montreal-4",
-            at: p.glitch('lateral-treasure-breeze'),
+            at: p.glitch('factual-different-industry'),
             prefer: !0,
            // featured: 1, // For Featured Status.
                       },
@@ -4314,6 +4314,13 @@
             at: p.glitch('destroytheattacker'),
            // featured: 1, // For Featured Status.
                 },
+          {
+            visible: 0,
+            id: "1",
+            type: "4TDM Maze",
+            code: "glitch-montreal-1",
+            at: p.glitch('2team-protector'),
+                       },
           {
             visible: 0,
             id: "d",
