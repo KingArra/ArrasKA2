@@ -27,7 +27,7 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-  background-image: url("https://cdn.glitch.com/f52276a8-996f-4c79-a170-f1f03ef26466%2Fezgif-6-d60c0677612a.gif?v=1598958013618");
+  background: linear-gradient(to right top, #00c8ff, #00b3ff, #0091ff, #0055ff, #0026ff);
   
 }
 
