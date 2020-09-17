@@ -3933,12 +3933,12 @@
           var c = [
             [
               "Tip: You can view and edit your keybinds in the options menu.",
-              "Tip: You can play on mobile by just going to arras-ka2.netlify.app on your phone!"
+              "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
             ],
             [
               "Tip: You can have the shield and health bar be separated by going to the options menu.",
               "Tip: If KA2 Arras is having a low frame rate, you can try enabling low graphics in the options menu.",
-              "Tip: You can make traps look like Diep with the classic trap setting in the options menu.",
+              "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
               "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
               "Join the KA2 Discord!"
             ],
