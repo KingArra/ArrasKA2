@@ -4292,7 +4292,7 @@
             id: "4",
             type: "4TDM",
             code: "glitch-montreal-4",
-            at: p.glitch('lateral-treasure-breeze'),
+            at: p.glitch('phrygian-proximal-sandpaper'),
             prefer: !0,
            // featured: 1, // For Featured Status.
                       },
@@ -4311,7 +4311,7 @@
             id: "3",
             type: "Defender Mode",
             code: "glitch-montreal-3",
-            at: p.glitch('destroytheattacker'),
+            at: p.glitch('jasper-cerulean-quark'),
            // featured: 1, // For Featured Status.
                 },
           {
@@ -4333,7 +4333,7 @@
             id: "d",
             type: "4TDM Maze",
             code: "glitch-montreal-o",
-            at: p.glitch('sugar-broken-duchess'),
+            at: p.glitch('probable-invented-slipper'),
            // featured: 1, // For Featured Status.
             
   }, 
