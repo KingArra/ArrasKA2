@@ -3,6 +3,23 @@
 
 - <b style="color: #ff4545">Please be aware that this Gamemode is still in progress, all bugs and problems should be reported on Discord!</b>
 
+- Reworked 2 Team Protector.
+
+- <b style="color: #00b0e1">BLUE Team</b> has to defend their teams dominator, but instead from RED team there will be Bosses coming in waves.
+
+- You must defeat all the bosses for 10 waves.
+
+- Added Ending Arena Closer Function.
+
+- Players will not be able to access the space where bosses Spawn. 
+
+
+
+
+# <u>PATCH 09/16/2020</u>
+
+- <b style="color: #ff4545">Please be aware that this Gamemode is still in progress, all bugs and problems should be reported on Discord!</b>
+
 - Added 2 Team Protector.
 
 - <b style="color: #00b0e1">BLUE Team</b> has to defend their teams dominator.
@@ -10,10 +27,6 @@
 - For <b style="color: #ff4545">RED Team</b> to win, they have to destroy Blue's Dominator.
 
 - RED players will spawn on the Top and Bottom and BLUE players will spawn next to the maze walls.
-
-
-
-
 
 
 # <u>PATCH 09/10/2020</u>
