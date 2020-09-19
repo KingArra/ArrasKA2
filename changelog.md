@@ -1,8 +1,10 @@
 
-# <u>PATCH 09/17/2020</u>
+# <u>PATCH 09/18/2020</u>
 
+- Planning to add Animation Tanks.
 
 - Reworked some TESTBED Branches and added new tanks.
+
 - Balanced the Summoner MK. II.
 
 # <u>PATCH 09/17/2020</u>
