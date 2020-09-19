@@ -4319,7 +4319,7 @@
             id: "1",
             type: "2protector",
             code: "glitch-montreal-1",
-            at: p.glitch('brash-rumbling-cent'),
+            at: p.glitch('peppered-shocking-parallelogram'),
                        },
           {
             visible: 0,
