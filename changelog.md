@@ -2,6 +2,12 @@
 # <u>PATCH 09/17/2020</u>
 
 
+- Reworked some TESTBED Branches and added new tanks.
+- Balanced the Summoner MK. II.
+
+# <u>PATCH 09/17/2020</u>
+
+
 - Reworked 2 Team Protector.
 
 - <b style="color: #00b0e1">BLUE Team</b> has to defend their teams dominator, but instead from RED team there will be Bosses coming in waves.
