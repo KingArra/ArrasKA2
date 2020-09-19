@@ -4292,7 +4292,7 @@
             id: "4",
             type: "4TDM",
             code: "glitch-montreal-4",
-            at: p.glitch('phrygian-proximal-sandpaper'),
+            at: p.glitch('typical-glossy-palm'),
             prefer: !0,
            // featured: 1, // For Featured Status.
                       },
