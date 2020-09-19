@@ -146,12 +146,13 @@ input {
 }
 
 #playerKeyInput {
-  padding: 5px;
-  font-size: small;
+    padding: 3px;
+    color: gray;
 }
 
-input:focus {
-  border: solid 1px #CCCCCC;
+input.focus {
+    border: solid 1px #cccccc;
+    box-shadow: 0 0 3px 1px #dddddd;
 }
 
 input.error {
