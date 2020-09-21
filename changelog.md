@@ -4,6 +4,9 @@
 
 - Working a feature for Beta Testers to be able to control Base Protectors and Dominators (which is a Developer Feature only!)
 
+- Working on a Beta Tester Feature. Beta Testers can control Contested Dominators and Base Protectors.
+
+
 
 # <u>PATCH 09/21/2020 (1): RAINBOOOOOOOOW</u>
 
@@ -36,6 +39,7 @@
 
 
 
+
 # <u>PATCH 09/16/2020</u>
 
 - <b style="color: #ff4545">Please be aware that this Gamemode is still in progress, all bugs and problems should be reported on Discord!</b>
@@ -47,6 +51,16 @@
 - For <b style="color: #ff4545">RED Team</b> to win, they have to destroy Blue's Dominator.
 
 - RED players will spawn on the Top and Bottom and BLUE players will spawn next to the maze walls.
+
+
+
+# <u>PATCH 09/11/2020: (1): Base Controller</u>
+
+- Added a Big Feature where you can Control a Base Protector or a Dominator. 
+
+- Pressing H will automatically send you to a Base Protector.
+
+- Users can only control their Base Protector or Dominator.
 
 
 # <u>PATCH 09/10/2020</u>
