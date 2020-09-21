@@ -3175,33 +3175,35 @@
                 for (let b = Y.length - 1; 0 <= b; b--) {
                   let a = Y[b],
                     f = a.text;
-
-                  g.globalAlpha = 0.5 * a.alpha;
+                       g.globalAlpha = 0.5 * a.alpha;
                   var color = l.black;
                   if (f.startsWith("red=")) {
                     color = l.red;
                     f = f.slice(4);
                   }
-                  if (f.startsWith("green=")) {
-                    color = l.green;
-                    f = f.slice(6);
-                  }
-                  if (f.startsWith("laven=")) {
-                    color = l.lavender;
-                    f = f.slice(6);
-                  }
-                  if (f.startsWith("mag-")) {
-                    color = l.magenta;
-                    f = f.slice(4);
-                  }
-                  if (f.startsWith("blue=")) {
-                    color = l.blue;
-                    f = f.slice(5);
-                  }
-                  if (f.startsWith("yel=")) {
+                  
+                    if (f.startsWith("yel=")) {
                     color = l.yellow;
                     f = f.slice(4);
                   }
+                  
+                     if (f.startsWith("blu=")) {
+                    color = l.blue;
+                    f = f.slice(5);
+                  }
+
+            
+                  if (f.startsWith("gre=")) {
+                    color = l.green;
+                    f = f.slice(6);
+                  }
+                 
+                  if (f.startsWith("pur=")) {
+                    color = l.magenta;
+                    f = f.slice(4);
+                  }
+               
+                
                   null == a.textobj && (a.textobj = m());
                   null == a.len && (a.len = ta(f, 14));
                   K(c - a.len / 2, c + a.len / 2, d + 9, 18, color);
@@ -3573,7 +3575,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('Ò Î›2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                                  if (b.label.includes('Ã’ ÃŽâ€º2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
                                     let f = 14 / b.position.axis;
                                     ba(c - 21 - f * b.position.middle.x * .707, d + 7 + f * b.position.middle.x * .707, b.image, 1 / f, 1, f * f / b.image.size, -Math.PI / 4, !0);
                                     d += 18
