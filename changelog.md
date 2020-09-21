@@ -1,11 +1,11 @@
 
-# <u>PATCH 09/19/2020</u>
+# <u>PATCH 09/21/2020</u>
 
 - Added Colored Notifications.
 
 - Big Thanks to Trapatin for helping me with this feature! (Not on Discord)
 
-# <u>PATCH 09/18/2020</u>
+# <u>PATCH 09/w0/2020</u>
 
 - Planning to add Animation Tanks.
 
