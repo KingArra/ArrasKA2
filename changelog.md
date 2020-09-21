@@ -1,5 +1,12 @@
 
 
+# <u>ANNOUNCEMENT 09/21/2020 </u>
+
+- Working a feature for Beta Testers to be able to control Base Protectors and Dominators (which is a Developer Feature only!)
+
+- Working on a Beta Tester Feature. Beta Testers can control Contested Dominators and Base Protectors.
+
+
 # <u>PATCH 09/21/2020: (2): Beta Work</u>
 
 - Working a feature for Beta Testers to be able to control Base Protectors and Dominators (which is a Developer Feature only!)
