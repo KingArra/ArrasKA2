@@ -2281,7 +2281,7 @@
               b.died ||
                 b.message ||
                 (b.message =
-                  "Socket closed. If you disconnected, respawn now to regain your score."));
+                  "The arena has been closed. Please refresh your page to jump to the next game!"));
             console.warn("WebSocket closed: ", a);
           };
           g.onerror = function(a) {
@@ -3143,7 +3143,7 @@
                   G(c, u, n, n, !0);
                 }
               } while (0);
-              if (b.mobile && "joysticks" === U.control) {
+  if (b.mobile && "joysticks" === U.control) {
                 let a = Math.min(0.6 * b.screenWidth, 0.12 * b.screenHeight);
                 g.globalAlpha = 0.3;
                 g.fillStyle = "#ffffff";
@@ -3175,10 +3175,37 @@
                 for (let b = Y.length - 1; 0 <= b; b--) {
                   let a = Y[b],
                     f = a.text;
+
+                  g.globalAlpha = 0.5 * a.alpha;
+                  var color = l.black;
+                  if (f.startsWith("red=")) {
+                    color = l.red;
+                    f = f.slice(4);
+                  }
+                  if (f.startsWith("green=")) {
+                    color = l.green;
+                    f = f.slice(6);
+                  }
+                  if (f.startsWith("laven=")) {
+                    color = l.lavender;
+                    f = f.slice(6);
+                  }
+                  if (f.startsWith("mag-")) {
+                    color = l.magenta;
+                    f = f.slice(4);
+                  }
+                  if (f.startsWith("blue=")) {
+                    color = l.blue;
+                    f = f.slice(5);
+                  }
+                  if (f.startsWith("yel=")) {
+                    color = l.yellow;
+                    f = f.slice(4);
+                  }
                   null == a.textobj && (a.textobj = m());
                   null == a.len && (a.len = ta(f, 14));
-                  g.globalAlpha = 0.5 * a.alpha;
-                  K(c - a.len / 2, c + a.len / 2, d + 9, 18, l.black);
+                  K(c - a.len / 2, c + a.len / 2, d + 9, 18, color);
+                  console.log(a.len);
                   g.globalAlpha = Math.min(1, a.alpha);
                   a.textobj.draw(f, c, d + 9, 14, l.guiwhite, "center", !0);
                   d += 22;
@@ -3546,7 +3573,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('ҠΛ2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                                  if (b.label.includes('Ò Î›2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
                                     let f = 14 / b.position.axis;
                                     ba(c - 21 - f * b.position.middle.x * .707, d + 7 + f * b.position.middle.x * .707, b.image, 1 / f, 1, f * f / b.image.size, -Math.PI / 4, !0);
                                     d += 18
@@ -4201,6 +4228,8 @@
         KEY_CHOOSE_9: -1,
         KEY_ENTER: 13,
         KEY_SPAWN: 13,
+               KEY_RAINBOW: 88,
+
         KEY_LEFT_ARROW: 37,
         KEY_UP_ARROW: 38,
         KEY_RIGHT_ARROW: 39,
@@ -4218,7 +4247,8 @@
         KEY_MOUSE_0: 32,
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
-        KEY_FUCK_YOU: 192,
+        KEY_TESTBED_YOU: 192,
+        KEY_CONTROLBASE: 72,
         KEY_KILL_YOURSELF: 79,
         screenWidth: window.innerWidth,
         screenHeight: window.innerHeight,
@@ -4846,9 +4876,9 @@
         keyboardDown(e) {
           switch (e.keyCode) {
             case a.KEY_SPAWN:
-              if (
+                           if (
                 a.died &&
-                (a.respawnOn <= Date.now() || e.shiftKey) &&
+                     (a.respawnOn <= Date.now() || e.shiftKey) &&
                 (this.spawn(a.playerName), (a.died = !1), !a.mobile)
               ) {
                 window.aiptag.cmd.display.push(function() {
@@ -4884,8 +4914,10 @@
               this.set(6, !0);
               break;
             case a.KEY_LEVEL_UP:
+
               this.emit("L");
               break;
+         
             case a.KEY_ABILITY:
               this.emit("A");
           }
@@ -4931,8 +4963,23 @@
                 case a.KEY_AUTO_SPIN:
                   this.talk("t", 0);
                   break;
+                case a.KEY_CONTROLBASE:
+                  a.messages.push({
+                    text: "Please Enter a Token to control a Base.",
+                    status: 2,
+                    alpha: 0,
+                    time: Date.now()
+                  });
+                  this.talk("g", 0);
+                  break;
+                   case a.KEY_RAINBOW:
+                  this.talk("t", 4);
+                  break;
                 case a.KEY_AUTO_FIRE:
                   this.talk("t", 1);
+                  break;
+                case a.KEY_PASSIVE:
+                  this.talk("t", 3);
                   break;
                 case a.KEY_OVER_RIDE:
                   this.talk("t", 2);
@@ -4946,7 +4993,7 @@
                 case a.KEY_UPGRADE_MAX:
                   this.statMaxing = !0;
                   break;
-                case a.KEY_FUCK_YOU:
+                case a.KEY_TESTBED_YOU:
                   this.emit("0");
                   break;
                 case a.KEY_KILL_YOURSELF:
