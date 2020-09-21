@@ -1,11 +1,18 @@
 
 # <u>PATCH 09/18/2020</u>
 
+- Added Colored Notifications.
+
+- Big Thanks to Trapatin for helping me with this feature! (Not on Discord)
+
+# <u>PATCH 09/18/2020</u>
+
 - Planning to add Animation Tanks.
 
 - Reworked some TESTBED Branches and added new tanks.
 
 - Balanced the Summoner MK. II.
+
 
 # <u>PATCH 09/17/2020</u>
 
