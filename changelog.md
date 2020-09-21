@@ -1,5 +1,11 @@
 
-# <u>PATCH 09/21/2020</u>
+
+# <u>PATCH 09/21/2020: (2): Beta Work</u>
+
+- Working a feature for Beta Testers to be able to control Base Protectors and Dominators (which is a Developer Feature only!)
+
+
+# <u>PATCH 09/21/2020 (1): RAINBOOOOOOOOW</u>
 
 - Added Colored Notifications.
 
