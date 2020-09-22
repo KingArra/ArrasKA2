@@ -581,7 +581,7 @@
                     H.submitToLocalStorage("playerKeyInput");
                     b.playerKey = z.key = d.value; 
           b.screenHeight = window.innerHeight;
-          document.getElementById("startMenuWrapper").style.top = "-10000000000000000000000000000000000000000000000000000000000000000000000px";
+          document.getElementById("startMenuWrapper").style.top = "-600px";
           document.getElementById("gameAreaWrapper").style.opacity = 1;
           if (!b.socket) {
             d = "https:" === location.protocol ? 1 : -1;
