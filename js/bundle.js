@@ -2288,7 +2288,7 @@
           g.onerror = function(a) {
             console.warn("WebSocket error", a);
             b.message ||
-              (b.message = "The connection was lost for an unknown reason. Maybe check your internet, or if the server is down?.");
+              (b.message = "The server is currently closed to the public; No players can join.");
             b.isInGame = !1;
           };
           return g;
