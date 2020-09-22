@@ -2,6 +2,13 @@
 
 
 
+# <u>PATCH 09/22/2020: (2) </u>
+
+- Fixed Tokens not saving when restarting after the game.
+
+
+
+
 # <u>ANNOUNCEMENT 09/22/2020 </u>
 
 - Upcoming there will be another TESTBED Event. This will not be a seperate Gamemode but hosted in the Developer Server.
