@@ -2,7 +2,7 @@
 
 
 
-# <u>ANNOUNCEMENT 09/21/2020 </u>
+# <u>ANNOUNCEMENT 09/22/2020 </u>
 
 - Upcoming there will be another TESTBED Event. This will not be a seperate Gamemode but hosted in the Developer Server.
 
