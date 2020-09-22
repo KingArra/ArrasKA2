@@ -2,6 +2,13 @@
 
 
 
+# <u>ANNOUNCEMENT 09/21/2020 </u>
+
+- Upcoming there will be another TESTBED Event. This will not be a seperate Gamemode but hosted in the Developer Server.
+
+
+
+
 # <u>PATCH 09/21/2020: (2): Beta Work</u>
 
 - Working a feature for Beta Testers to be able to control Base Protectors and Dominators (which is a Developer Feature only!)
