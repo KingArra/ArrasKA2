@@ -4,6 +4,8 @@
 
 # <u>PATCH 09/22/2020: (2) </u>
 
+- Added the Gunship. Upgrades from Miscellaneous Page 3. (Beta Tester Tank Only)
+
 - Fixed Tokens not saving when restarting after the game.
 
 
