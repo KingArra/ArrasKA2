@@ -4325,7 +4325,7 @@
             id: "4",
             type: "4TDM",
             code: "glitch-montreal-4",
-            at: p.glitch('unknownserverdev4tdm'),
+            at: p.glitch('typical-glossy-palm'),
             prefer: !0,
            // featured: 1, // For Featured Status.
                       },
