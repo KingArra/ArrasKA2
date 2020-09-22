@@ -2,6 +2,13 @@
 
 
 
+# <u>PATCH 09/22/2020: (3) </u>
+
+- <b style="color: #ff4545">Beta Testers may not test or use TESTBED Tanks until this issue is solved. Please consult questions on my Discord!</b>
+
+- Due to a Beta Tester Token Leak, all Tokens including the Developer Token are wiped out.
+
+
 # <u>PATCH 09/22/2020: (2) </u>
 
 - Added the Comet. Upgrades from Miscellaneous Page 4. (Beta Tester Tank Only)
