@@ -4026,7 +4026,7 @@
               b.screenWidth / 2,
               b.screenHeight / 2 + 30,
               15,
-              l.orange,
+              l.red,
               "center"
             );
           };
