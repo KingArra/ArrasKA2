@@ -2,7 +2,13 @@
 
 
 
-# <u>PATCH 09/24/2020: MORE SERVERS </u>
+# <u>PATCH 09/24/2020: (3) </u>
+
+- Removed 2TDM because of Spawning Errors.
+
+
+
+# <u>PATCH 09/24/2020: (2) MORE SERVERS </u>
 
 - Added 2TDM
 
