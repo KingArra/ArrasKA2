@@ -4,6 +4,8 @@
 
 # <u>PATCH 09/24/2020: The Big Entity Update </u>
 
+- Added the Constructionist. Upgrades from Miscellaneous Page 4.
+
 - Added the Collider. Upgrades from Miscellaneous Page 4.
 
 - Nerfed the Comet's Speed and added 2 more barrels on the back.
