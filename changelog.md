@@ -2,6 +2,26 @@
 
 
 
+# <u>PATCH 09/24/2020: The Big Entity Update </u>
+
+- Added the Collider. Upgrades from Miscellaneous Page 4.
+
+- Nerfed the Comet's Speed and added 2 more barrels on the back.
+
+- Added the Elite Sniper
+
+- Increased Boss Spawning Rate.
+
+- Fixed the 'nearestDifferentMaster' on Minibosses.
+
+- Made Base Protectors 'hard' and nerfed Swarm Damage.
+
+
+# <u>PATCH 09/23/2020 </u>
+
+- Added the Sword Thrower. (Currently is a Beta Tank)
+
+
 # <u>PATCH 09/22/2020: (3) </u>
 
 - <b style="color: #ff4545">Beta Testers may not test or use TESTBED Tanks until this issue is solved. Please consult questions on my Discord!</b>
