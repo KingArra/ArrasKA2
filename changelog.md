@@ -2,6 +2,17 @@
 
 
 
+# <u>PATCH 09/24/2020: MORE SERVERS </u>
+
+- Added 2TDM
+
+- Added FFA (Free For All)
+
+- 2TDM, FFA, and 4TDM Have the same Tanks. (Beta Tester Tokens Remain the Same on all Servers.)
+
+
+
+
 # <u>PATCH 09/24/2020: The Big Entity Update </u>
 
 - Added the Constructionist. Upgrades from Miscellaneous Page 4.
