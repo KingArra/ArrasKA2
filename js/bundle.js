@@ -4283,7 +4283,7 @@
             local: ["Local", null],
             worldwide: ["Worldwide", null],
             virginia: ["US East", -4],
-            montreal: ["Montreal (Ca)", -4],
+            montreal: ["Montreal (US)", -4],
             oregon: ["US West", -7],
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
@@ -4298,6 +4298,8 @@
             [{ id: "w", dynamic: "words" }],
             [{ id: "o", to: "Maze" }],
             [{ id: "6", to: "2TDM" }],
+            [{ id: "9", to: "FFA" }],
+
 
             [{ id: "m", to: "Developer Server", delay: !0, remove: "f" }],
             [
@@ -4328,6 +4330,14 @@
             type: "4TDM",
             code: "glitch-montreal-4",
             at: p.glitch('typical-glossy-palm'),
+            prefer: !0,
+              },
+          {
+            visible: 0,
+            id: "9",
+            type: "FFA",
+            code: "glitch-montreal-9",
+            at: p.glitch('ffa-ka2'),
             prefer: !0,
                  },
           {
