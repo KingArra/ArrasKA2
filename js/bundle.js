@@ -4283,7 +4283,7 @@
             local: ["Local", null],
             worldwide: ["Worldwide", null],
             virginia: ["US East", -4],
-            montreal: ["Montreal (US)", -4],
+            montreal: ["Montreal (Ca)", -4],
             oregon: ["US West", -7],
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
