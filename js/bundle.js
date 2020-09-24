@@ -3576,7 +3576,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('Ã’ ÃŽâ€º2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                                  if (b.label.includes('Ãƒâ€™ ÃƒÅ½Ã¢â‚¬Âº2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
                                     let f = 14 / b.position.axis;
                                     ba(c - 21 - f * b.position.middle.x * .707, d + 7 + f * b.position.middle.x * .707, b.image, 1 / f, 1, f * f / b.image.size, -Math.PI / 4, !0);
                                     d += 18
@@ -4297,7 +4297,6 @@
             [{ id: "e", dynamic: "word" }],
             [{ id: "w", dynamic: "words" }],
             [{ id: "o", to: "Maze" }],
-            [{ id: "6", to: "2TDM" }],
             [{ id: "9", to: "FFA" }],
 
 
@@ -4341,15 +4340,7 @@
             prefer: !0,
                  },
           {
-            visible: 0,
-            id: "6",
-            type: "2TDM",
-            code: "glitch-montreal-6",
-            at: p.glitch('ash-regal-bard'),
-            prefer: !0,
-           // featured: 1, // For Featured Status.
-                      },
-          {
+       
             visible: 0,
             id: "2",
             type: "FFA Maze",
