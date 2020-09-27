@@ -3584,6 +3584,8 @@
                                   if (b.label.includes('e 3'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('e 4'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('e 5'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
+                                  if (b.label.includes('ERΛLD GUΛRDIΛN'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.lgreen, "center", !0);
+
 
 
 
