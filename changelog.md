@@ -1,6 +1,11 @@
 
 
 
+# <u>PATCH 09/28/2020: (1) </u>
+
+- Added a closing time for 4TDM.
+
+- For testing purposes, the server will close every 10 minutes.
 
 # <u>PATCH 09/24/2020: (3) </u>
 
