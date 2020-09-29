@@ -248,6 +248,28 @@
             return "#ffd300";
           default:
             return "#ff0000";
+               case 36:
+            return T(
+              [
+                "#ff1000",
+                "#ff9000",
+                "#ffd300",
+                "#00e00b",
+                "#226ef6",
+                "#a913cf"
+              ][Math.floor((Date.now() / 200) % 6)],
+              [
+                "#ff9000",
+                "#ffd300",
+                "#00e00b",
+                "#226ef6",
+                "#a913cf",
+                "#ff1000"
+              ][Math.floor((Date.now() / 200) % 6)],
+              (Date.now() / 200) % 1
+            );
+          //["#ff1600","#ff2b00","#ff4100","#ff5700","#ff6c00","#ff8200","#ff9700","#ffad00","#ffc300","#ffd800"]
+       
         }
       }
       function E(b) {
@@ -3172,6 +3194,10 @@
                   
                      if (f.startsWith("blu=")) {
                     color = l.blue;
+                    f = f.slice(5);
+                  }
+                        if (f.startsWith("ttt=")) {
+                    color = e(36);
                     f = f.slice(5);
                   }
 
