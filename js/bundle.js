@@ -291,8 +291,10 @@
             return T(l.white, l.guiblack, 1 / 3);
           case "dor1":
             return l.vlgrey;
+          case "nest":
+            return l.purple /*return l.white*/;
           default:
-            return l.white;
+            return l.white
         }
       }
       function k(b, n) {
@@ -3576,7 +3578,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('ҠΛ2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                                  if (b.label.includes('Ò Î›2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
                                   if (b.label.includes('nt'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('ella'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('a T'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
