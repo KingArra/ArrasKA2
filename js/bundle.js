@@ -640,59 +640,39 @@
         g.strokeStyle = u;
         g.stroke();
       }
-      function Qa(b, a, c, h, u) {
-        if (!(0.05 > u)) {
-          var d = c.render.status.getFade();
-          d *= d;
-          g.globalAlpha = d;
-          var f = c.size * h;
-          h = M[c.index];
-          h = (f / h.size) * h.realSize;
-          if (c.drawsHealth) {
-            let n = c.render.health.get(),
-              y = c.render.shield.get();
-            if (1 > n || 1 > y) {
-              let c = a + 1.1 * h + 15;
-              g.globalAlpha = u * u * d;
-              B.graphical.shieldbars
-                ? (K(b - f, b + f, c, 6 + B.graphical.barChunk, l.black),
-                  y
-                    ? (K(b - f, b - f + 2 * f * n, c + 1.5, 3, l.lgreen),
-                      (g.globalAlpha *= 0.7),
-                      K(b - f, b - f + 2 * f * y, c - 1.5, 3, l.teal))
-                    : K(b - f, b - f + 2 * f * n, c, 4, l.lgreen))
-                : (K(b - f, b + f, c, 3 + B.graphical.barChunk, l.black),
-                  K(b - f, b - f + 2 * f * n, c, 3, l.lgreen),
-                  y &&
-                    ((g.globalAlpha *= 0.3 + 0.3 * y),
-                    K(b - f, b - f + 2 * f * y, c, 3, l.teal)));
-              g.globalAlpha = d;
-            }
-          }
-          c.nameplate &&
-            c.id !== A.playerid &&
-            (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
-            (d = c.name),
-            (f = l.guiwhite),
-            d.startsWith("\u200b\u200b") &&
-              ((d = d.slice(2)), d.length && (f = T(l.yellow, f, 0.125))),
-            (g.globalAlpha = u),
-            c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"),
-            c.render.textobjs[1].draw(
-              H.handleLargeNumber(c.score, !0),
-              b,
-              a - h - 16,
-              8,
-              f,
-              "center"
-            ),
-            (g.globalAlpha = 1));
-          
-          
-        }
-      }
-      function za() {
-        b.animLoopHandle = requestAnimationFrame(za);
+     function Qa(b, a, c, h, u) {
+                if (!(.05 > u)) {
+                    var d = c.render.status.getFade();
+                    d *= d;
+                    g.globalAlpha = d;
+                    var f = c.size * h;
+                    h = M[c.index];
+                    h = f / h.size * h.realSize;
+                    if (c.drawsHealth) {
+                        let n = c.render.health.get(),
+                            y = c.render.shield.get();
+                        if (1 >
+                            n || 1 > y) {
+                            let c = a + 1.1 * h + 15;
+                            g.globalAlpha = u * u * d;
+                            B.graphical.shieldbars ? (K(b - f, b + f, c, 6 + B.graphical.barChunk, l.black), y ? (K(b - f, b - f + 2 * f * n, c + 1.5, 3, l.lgreen), g.globalAlpha *= .7, K(b - f, b - f + 2 * f * y, c - 1.5, 3, l.teal)) : K(b - f, b - f + 2 * f * n, c, 4, l.lgreen)) : (K(b - f, b + f, c, 3 + B.graphical.barChunk, l.black), K(b - f, b - f + 2 * f * n, c, 3, l.lgreen), y && (g.globalAlpha *= .3 + .3 * y, K(b - f, b - f + 2 * f * y, c, 3, l.teal)));
+                            g.globalAlpha = d
+                        }
+                    } //name color
+               c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, d.startsWith("[AI]") &&   (d = d.slice(0), d.length && (f = T(l.lgreen, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                     if (c.name === 'ҠΛ2') 
+                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.red, d.startsWith("ҠΛ2") &&   (d = d.slice(0), d.length && (f = T(l.red, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                      
+                    }
+              if (c.name === 'User') 
+                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.teal, d.startsWith("[AI]") &&   (d = d.slice(0), d.length && (f = T(l.teal, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                      
+                    
+                }
+            
+
+            function za() {
+                b.animLoopHandle = requestAnimationFrame(za);
         z.renderv += (z.view - z.renderv) / 30;
         g.lineCap = "round";
         g.lineJoin = "round";
@@ -3351,107 +3331,47 @@
                 K(c, c + 330, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                 K(c, c + 330, d + a / 2, a - 3, l.grey);
                 K(c, c + 330 * A.__s.getProgress(), d + a / 2, a - 3.5, l.gold);
-                S.draw(
-                  "Level " + A.__s.getLevel() + " " + M[A.type].name,
-                  c + 165,
-                  d + a / 2,
-                  a - 4,
-                  l.guiwhite,
-                  "center",
-                  !0
-                );
-                a = 14;
-                d -= a + 4;
-                K(
-                  c + 33,
-                  c + 297,
-                  d + a / 2,
-                  a - 3 + B.graphical.barChunk,
-                  l.black
-                );
-                K(c + 33, c + 297, d + a / 2, a - 3, l.grey);
-                K(
-                  c + 33,
-                  c +
-                    330 *
-                      (0.1 +
-                        0.8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)),
-                  d + a / 2,
-                  a - 3.5,
-                  l.green
-                );
-                C.draw(
-                  "Score: " + H.formatLargeNumber(A.__s.getScore()),
-                  c + 165,
-                  d + a / 2,
-                  a - 2,
-                  l.guiwhite,
-                  "center",
-                  !0
-                );
-                g.lineWidth = 4;
-                N.draw(
-                  z.name,
-                  Math.round(c + 165) + 0.5,
-                  Math.round(d - 10 - 4) + 0.5,
-                  32,
-                  l.guiwhite,
-                  "center"
-                );
-              }
-              b.mobile && L(0.8);
-              {
-                let c = (200 / b.gameWidth) * b.gameHeight,
-                  h = b.screenWidth - 20,
-                  n = b.screenHeight - 20,
-                  q = (a, c, d, f, h) => {
-                    if (!b.radial) {
-                      let b = Z[0].length,
-                        e = Z.length,
-                        h = d / b,
-                        k = f / e;
-                      for (let d = 0; d < e; d++) {
-                        let f = Z[d];
-                        for (let e = 0; e < b; e++)
-                          (g.globalAlpha = 0.6),
-                            (g.fillStyle = x(f[e])),
-                            G(a + e * h, c + d * k, h, k);
-                      }
-                    }
-                    g.globalAlpha = 0.3;
-                    g.fillStyle = T(l.grey, l.vlgrey);
-                    b.radial ? G(a + d / 2, c + f / 2, d / 2) : G(a, c, d, f);
-                    for (let f of Ea.get())
-                      (g.fillStyle = T(e(f.color), l.black, 0.3)),
-                        (g.globalAlpha = f.alpha),
-                        2 === f.type
-                          ? G(
-                              a + ((f.x - f.size) / b.gameWidth) * d - 0.4,
-                              c + ((f.y - f.size) / b.gameWidth) * d - 1,
-                              ((2 * f.size) / b.gameWidth) * d + 0.2,
-                              ((2 * f.size) / b.gameWidth) * d + 0.2
-                            )
-                          : 1 === f.type
-                          ? ja(
-                              a + (f.x / b.gameWidth) * d,
-                              c + (f.y / b.gameWidth) * d,
-                              (f.size / b.gameWidth) * d + 0.2
-                            )
-                          : f.id !== A.playerid &&
-                            ja(
-                              a + (f.x / b.gameWidth) * d,
-                              c + (f.y / b.gameWidth) * d,
-                              h
-                            );
-                    g.fillStyle = l.black;
-                    g.globalAlpha = 1;
-                    ja(
-                      a + (z.cx / b.gameWidth) * d,
-                      c + (z.cy / b.gameWidth) * d,
-                      h
-                    );
-                    g.strokeStyle = l.black;
-                    g.lineWidth = 3;
+                         S.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
+                                a = 14;
+                                d -= a + 4;
+                                K(c + 33, c + 297, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
+                                K(c + 33, c + 297, d + a / 2, a - 3, l.grey);
+                                K(c + 33, c + 330 * (.1 + .8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)), d + a / 2, a - 3.5, l.green);
+                                C.draw("Score: " + H.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center",
+                                    !0);
+                                g.lineWidth = 4;/*
+                                if (//name color) {
+                                N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
+                                } else {*/
+                                N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
+                              if (z.name === 'ҠΛ2')N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")//name-color
+                                //};// name color
+                            }
+                            b.mobile && L(.8); {
+                                let c = 200 / b.gameWidth * b.gameHeight,
+                                    h = b.screenWidth - 20,
+                                    n = b.screenHeight - 20,
+                                    q = (a, c, d, f, h) => {
+                                        if (!b.radial) {
+                                            let b = Z[0].length,
+                                                e = Z.length,
+                                                h = d / b,
+                                                k = f / e;
+                                            for (let d = 0; d < e; d++) {
+                                                let f = Z[d];
+                                                for (let e = 0; e < b; e++) g.globalAlpha = .6, g.fillStyle = x(f[e]), G(a + e * h, c + d * k, h, k)
+                                            }
+                                        }
+                                        g.globalAlpha = .3;
+                                        g.fillStyle = T(l.grey, l.vlgrey);
+                                        b.radial ? G(a + d / 2, c + f / 2, d / 2) : G(a, c, d, f);
+                                        for (let f of Ea.get()) g.fillStyle = T(e(f.color),
+                                            l.black, .3), g.globalAlpha = f.alpha, 2 === f.type ? G(a + (f.x - f.size) / b.gameWidth * d - .4, c + (f.y - f.size) / b.gameWidth * d - 1, 2 * f.size / b.gameWidth * d + .2, 2 * f.size / b.gameWidth * d + .2) : 1 === f.type ? ja(a + f.x / b.gameWidth * d, c + f.y / b.gameWidth * d, f.size / b.gameWidth * d + .2) : f.id !== A.playerid && ja(a + f.x / b.gameWidth * d, c + f.y / b.gameWidth * d, h);
+                                        g.fillStyle = l.black;
+                                        g.globalAlpha = 1;
+                                        ja(a + z.cx / b.gameWidth * d, c + z.cy / b.gameWidth * d, h);
+                                        g.strokeStyle = l.black;
+                                        g.lineWidth = 3;
                     b.radial
                       ? ja(a + d / 2, c + f / 2, d / 2, !0)
                       : G(a, c, d, f, !0);
@@ -3578,7 +3498,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('ҠΛ2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.blue, "center", !0);
+                                  if (b.label.includes('ҠΛ2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
                                   if (b.label.includes('nt'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('ella'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
                                   if (b.label.includes('a T'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.yellow, "center", !0);
