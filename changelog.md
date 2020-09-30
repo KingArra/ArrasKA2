@@ -1,6 +1,16 @@
 
 
 
+# <u>PATCH 09/30/2020: (1) </u>
+
+- Added 4TDM Mothership.
+
+- Instead of the last remaining Mothership, it is the last 3 Motherships with the game.
+
+- Motherships all have nerfed health.
+
+
+
 # <u>PATCH 09/28/2020: (1) </u>
 
 - Added a closing time for 4TDM.
