@@ -1,3 +1,28 @@
+# Event Poll [2020-30-09] Should the TESTBED Event be released on a Saturday or Sunday?
+- 16, 2020-06-22T00:00:00.000Z, radio
+- Sunday
+- Saturday
+
+
+
+# <u>PATCH 09/30/2020: (1) </u>
+
+- Added 4TDM Mothership.
+
+- Instead of the last remaining Mothership, it is the last 3 Motherships with the game.
+
+- Motherships all have nerfed health.
+
+
+
+# <u>PATCH 09/30/2020: (1) </u>
+
+- Added 4TDM Mothership.
+
+- Instead of the last remaining Mothership, it is the last 3 Motherships with the game.
+
+- Motherships all have nerfed health.
+
 
 
 
