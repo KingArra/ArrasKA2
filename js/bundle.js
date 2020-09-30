@@ -843,7 +843,7 @@
           }
           update(b, a = 0) {
             var c = b[a++];
-            for (var d = 0; d < c; d++) delete this.elements[b[a++]];
+          for (var d = 0; d < c; d++) delete this.elements[b[a++]];
             c = b[a++];
             for (d = 0; d < c; d++) {
               let c = b[a++],
@@ -873,7 +873,10 @@
             for (let d of b)
               this.map[d.id]
                 ? (this.map[d.id].now = d)
-                : (this.map[d.id] = { old: null, now: d });
+                : (this.map[d.id] = {
+                    old: null,
+                    now: d
+                  });
           }
           get() {
             let b = Math.min(1, (Date.now() - this.lastUpdate) / this.speed),
@@ -4267,6 +4270,8 @@
             [{ id: "w", dynamic: "words" }],
             [{ id: "o", to: "Maze" }],
             [{ id: "9", to: "FFA" }],
+            [{ id: "b", to: "4TDM Mothership" }],
+
 
 
             [{ id: "m", to: "Developer Server", delay: !0, remove: "f" }],
@@ -4306,6 +4311,14 @@
             type: "FFA",
             code: "glitch-montreal-9",
             at: p.glitch('ffa-ka2'),
+            prefer: !0,
+                 },
+          {
+            visible: 0,
+            id: "b",
+            type: "4TDM Mothership",
+            code: "glitch-montreal-b",
+            at: p.glitch('alpine-jolly-notebook'),
             prefer: !0,
                  },
           {
