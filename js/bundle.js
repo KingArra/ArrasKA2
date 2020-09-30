@@ -1520,7 +1520,7 @@
       b.mobile && H.retrieveFromLocalStorage("optMobile");
       H.retrieveFromLocalStorage("optCustom");
       "" === document.getElementById("optColors").value &&
-        (document.getElementById("optColors").value = "ka2");
+        (document.getElementById("optColors").value = "normal");
       b.mobile &&
         "" === document.getElementById("optMobile").value &&
         (document.getElementById("optMobile").value = "joysticks");
@@ -5468,9 +5468,9 @@
     },
     function(r) {
       r.exports = {
-        ka2: {
+        normal: {
           teal: "#00ffae",
-          lgreen: "#00b500",
+          lgreen: "#24ff32",
           orange: "#ff6600",
           yellow: "#ffd900",
           lavender: "#8b4dff",
@@ -5492,7 +5492,7 @@
           paletteSize: 10,
           border: 0.65
         },
-        normal: {
+        ka2: {
           teal: "#8EFFFB",
           lgreen: "#85E37D",
           orange: "#FC7676",
