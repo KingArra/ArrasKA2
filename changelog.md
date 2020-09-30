@@ -1,5 +1,5 @@
 # Event Poll [2020-30-09] Should the TESTBED Event be released on a Saturday or Sunday?
-- 16, 2020-10-01T00:00:00.000Z, radio
+- 16, 2020-10-01T00:00:00.000Z, any
 
 - Sunday
 - Saturday
