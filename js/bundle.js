@@ -3199,6 +3199,10 @@
                         if (f.startsWith("ttt=")) {
                     color = e(36);
                     f = f.slice(5);
+                              }
+                        if (f.startsWith("tp=")) {
+                    color = e(20);
+                    f = f.slice(20);
                   }
 
             
@@ -3425,7 +3429,7 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "KA2 Arras.io",
+                    "KA2 Arras",
                     h + 200,
                     m - 2,
                     15,
@@ -3435,7 +3439,7 @@
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "KA2 Arras.io",
+                      "KA2 Arras",
                       h + 200,
                       m - 84 - 2,
                       15,
@@ -3472,7 +3476,7 @@
                     );
                   } else
                     W[6].draw(
-                      "KA2 Arras.io",
+                      "KA2 Arras",
                       h + 200,
                       m - 42 - 2,
                       15,
@@ -4215,6 +4219,7 @@
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
         KEY_TESTBED_YOU: 192,
+        KEY_RANDOM_BOSSES: 191,
         KEY_CONTROLBASE: 72,
         KEY_KILL_YOURSELF: 79,
         screenWidth: window.innerWidth,
