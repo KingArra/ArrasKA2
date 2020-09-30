@@ -1,4 +1,6 @@
 # Event Poll [2020-30-09] Should the TESTBED Event be released on a Saturday or Sunday?
+- 19, 2020-07-31T07:00:00.000Z, any
+
 - Sunday
 - Saturday
 
