@@ -762,7 +762,7 @@
           inversedRender: !0,
           darkBorders: !1,
           fancyAnimations: !0,
-          colors: "normal",
+          colors: "ka2",
           pointy: !0,
           fontSizeBoost: 1,
           shieldbars: !1,
@@ -1520,7 +1520,7 @@
       b.mobile && H.retrieveFromLocalStorage("optMobile");
       H.retrieveFromLocalStorage("optCustom");
       "" === document.getElementById("optColors").value &&
-        (document.getElementById("optColors").value = "normal");
+        (document.getElementById("optColors").value = "ka2");
       b.mobile &&
         "" === document.getElementById("optMobile").value &&
         (document.getElementById("optMobile").value = "joysticks");
@@ -5468,29 +5468,53 @@
     },
     function(r) {
       r.exports = {
-        normal: {
-          teal: "#7ADBBC",
-          lgreen: "#B9E87E",
-          orange: "#E7896D",
-          yellow: "#FDF380",
-          lavender: "#B58EFD",
-          pink: "#EF99C3",
+        ka2: {
+          teal: "#00ffae",
+          lgreen: "#00b500",
+          orange: "#ff6600",
+          yellow: "#ffd900",
+          lavender: "#8b4dff",
+          pink: "#ff007d",
           vlgrey: "#E8EBF7",
           lgrey: "#AA9F9E",
           guiwhite: "#FFFFFF",
           black: "#484848",
-          blue: "#3CA4CB",
-          green: "#8ABC3F",
-          red: "#E03E41",
+          blue: "#00c7ff",
+          green: "#1cff59",
+          red: "#ff5a47",
           gold: "#EFC74B",
-          purple: "#8D6ADF",
-          magenta: "#CC669C",
+          purple: "#8800ff",
+          magenta: "#dd00ff",
           grey: "#A7A7AF",
           dgrey: "#726F6F",
           white: "#DBDBDB",
           guiblack: "#000000",
           paletteSize: 10,
           border: 0.65
+        },
+        normal: {
+          teal: "#8EFFFB",
+          lgreen: "#85E37D",
+          orange: "#FC7676",
+          yellow: "#FFEB8E",
+          lavender: "#B58EFF",
+          pink: "#F177DD",
+          vlgrey: "#CDCDCD",
+          lgrey: "#999999",
+          guiwhite: "#FFFFFF",
+          black: "#525252",
+          blue: "#00B0E1",
+          green: "#00E06C",
+          red: "#F04F54",
+          gold: "#FFE46B",
+          purple: "#768CFC",
+          magenta: "#BE7FF5",
+          grey: "#999999",
+          dgrey: "#545454",
+          white: "#C0C0C0",
+          guiblack: "#000000",
+          paletteSize: 10,
+          border: 0.5
         },
         classic: {
           teal: "#8EFFFB",
