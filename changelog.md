@@ -4,6 +4,15 @@
 
 # <u>PATCH 09/30/2020: (1) </u>
 
+- Added the  <b>Titan</b> upgrades from Misc. Page 4.
+- Added the  <b>MK-2</b> which upgrades from Misc. Page 4.
+- Added <b>AWP-1</b>
+
+
+
+
+# <u>PATCH 09/30/2020: (1) </u>
+
 - Added 4TDM Mothership.
 
 - Instead of the last remaining Mothership, it is the last 3 Motherships with the game.
