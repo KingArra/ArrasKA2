@@ -6,7 +6,7 @@
 
 - Added the  <b>Titan</b> upgrades from Misc. Page 4.
 - Added the  <b>MK-2</b> which upgrades from Misc. Page 4.
-- Added <b>AWP-1</b>
+- Added <b>AWP-1</b> upgrades from Misc. Page 4.
 
 
 
