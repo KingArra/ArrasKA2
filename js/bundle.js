@@ -682,8 +682,8 @@
                         }
                     } //name color
                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, d.startsWith("[AI]") &&   (d = d.slice(0), d.length && (f = T(l.lgreen, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
-                     if (c.name === 'ҠΛ2') 
-                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.red, d.startsWith("ҠΛ2") &&   (d = d.slice(0), d.length && (f = T(l.red, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                     if (c.name === 'Ò Î›2') 
+                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.red, d.startsWith("Ò Î›2") &&   (d = d.slice(0), d.length && (f = T(l.red, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
                       
                     }
               if (c.name === 'User') 
@@ -3377,7 +3377,7 @@
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
                                 } else {*/
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
-                              if (z.name === 'ҠΛ2')N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")//name-color
+                              if (z.name === 'Ò Î›2')N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")//name-color
                                 //};// name color
                             }
                             b.mobile && L(.8); {
@@ -3531,7 +3531,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('ҠΛ2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
+                                  if (b.label.includes('Ò Î›2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
 
 
 
@@ -4149,10 +4149,11 @@
     },
     function(r) {
       const p = {
-        openshift: (a, e) => `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
+         openshift: (a, e) => `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
             glitch: a => `${a}.glitch.me`,
-            heroku: a => `arras-${a}.herokuapp.com`,
-            arras: (a, e = 5E3) => `ip-${a}.arras.io:${e}`
+            heroku: a => `${a}.herokuapp.com`,
+            arras: (a, e = 5E3) => `ip-${a}.arras.io:${e}`,
+            arrasUnknown: (a, e = 5E3) => `ipu-${a}.arras.io:${e}`
       };
       var w = new Date().getDate();
       const a = 25 <= w ? 3 : 0;
@@ -4311,9 +4312,9 @@
             visible: 0,
             id: "b",
             type: "4TDM Mothership",
-            code: "glitch-montreal-b",
-            at: p.glitch('alpine-jolly-notebook'),
-            prefer: !0,
+            code: "heroku-virginia-b",
+            at: p.heroku("arras-ka2-4tdm-mothership")
+            
                  },
           {
        
@@ -5825,4 +5826,4 @@
       };
     }
   ]);
-}.call(this);
+}.call(this);ma
