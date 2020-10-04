@@ -2,6 +2,15 @@
 
 
 
+# <u>PATCH 10/03/2020: (1) </u>
+
+- Added God Mode for Beta Testers and Developers.
+- Pressing "O" will trigger the God Mode on and off.
+- Thanks to ????? for reporting the issue!
+
+
+
+
 # <u>PATCH 09/30/2020: (1) </u>
 
 - Added the  <b>Titan</b> upgrades from Misc. Page 4.
