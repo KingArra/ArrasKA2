@@ -4269,7 +4269,7 @@
 
 
 
-            [{ id: "m", to: "Developer Server", delay: !0, remove: "f" }],
+            [{ id: "m", to: "Developer Server (TESTBED)", delay: !0, remove: "f" }],
             [
               { id: "f", to: "Defender Mode" },
               { id: "2", to: "2 Team", end: "FFA Maze" },
