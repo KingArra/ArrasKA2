@@ -4320,9 +4320,9 @@
        
             visible: 0,
             id: "2",
-            type: "FFA Maze",
+            type: "Dev",
             code: "glitch-montreal-m",
-            at: p.glitch(''),
+            at: p.glitch('quaint-plump-capacity'),
             prefer: !0,
            // featured: 1, // For Featured Status.
 
