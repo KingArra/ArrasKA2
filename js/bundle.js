@@ -4320,7 +4320,7 @@
        
             visible: 0,
             id: "2",
-            type: "Dev",
+            type: "FFA Maze",
             code: "glitch-montreal-m",
             at: p.glitch('quaint-plump-capacity'),
             prefer: !0,
