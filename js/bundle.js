@@ -301,7 +301,7 @@
           case "dom4":
           case "dbc4":
           case "mbc4":
-            return l.pink;
+            return l.purple;
           case "domx":
           case "dom0":
           case "dbc0":
@@ -3362,13 +3362,13 @@
                 ia || b.mobile || !b.died || (d -= 110);
                 g.lineWidth = 1;
                 K(c, c + 330, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
-                K(c, c + 330, d + a / 2, a - 3, l.grey);
+                K(c, c + 330, d + a / 2, a - 3, l.black);
                 K(c, c + 330 * A.__s.getProgress(), d + a / 2, a - 3.5, l.gold);
                          S.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
                                 a = 14;
                                 d -= a + 4;
                                 K(c + 33, c + 297, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
-                                K(c + 33, c + 297, d + a / 2, a - 3, l.grey);
+                                K(c + 33, c + 297, d + a / 2, a - 3, l.black);
                                 K(c + 33, c + 330 * (.1 + .8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)), d + a / 2, a - 3.5, l.green);
                                 C.draw("Score: " + H.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center",
                                     !0);
@@ -3568,7 +3568,7 @@
                                         h = c;
                                         b.clickables.upgrade.place(q++, c * n, d * n, 100 * n, 100 * n);
                                         g.globalAlpha = 1;
-                                        g.fillStyle = /*e(u + 10)*/l.lgreen;
+                                        g.fillStyle = /*e(u + 10)*/l.purple;
                                         G(c, d, 100, 100);
                                         g.globalAlpha = .1;
                                         g.fillStyle = e(u);
@@ -3618,9 +3618,9 @@
                           l.guiwhite,
                           "center"
                         );
-                    g.strokeStyle = l.black;
+                    g.strokeStyle = l.dgrey;
                     g.globalAlpha = 1;
-                    g.lineWidth = 3;
+                    g.lineWidth = 5;
                     G(c, d, 100, 100, !0);
                     0 !== ++x % 3 || b.mobile
                       ? (c += 114 * a)
@@ -4309,11 +4309,11 @@
             prefer: !0,
                  },
           {
-       visible: 0,
+            visible: 0,
             id: "b",
             type: "4TDM Mothership",
-            code: "glitch-montreal-b",
-            at: p.glitch('alpine-jolly-notebook'),
+            code: "heroku-virginia-b",
+            at: p.heroku("arras-ka2-4tdm-mothership")
             
                  },
           {
