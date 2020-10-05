@@ -2,6 +2,16 @@
 
 
 
+# <u>PATCH 10/5/2020: (1) </u>
+
+- The 2nd TESTBED Event has been Released!
+- Use the Token 'beta' to get TESTBED.
+- Enter the Developer Server to join this Event.
+
+
+
+
+
 # <u>PATCH 10/03/2020: (1) </u>
 
 - Added God Mode for Beta Testers and Developers.
