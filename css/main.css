@@ -50,7 +50,9 @@ h1 {
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
-}
+  }
+
+
 div.centered {
   text-align: center;
 }
@@ -142,12 +144,15 @@ input {
 
 #playerNameInput {
   padding: 10px;
-  font-size: larger;
+  border-radius: 5px;
+  border: solid 2.5px #696969;
 }
 
 #playerKeyInput {
     padding: 3px;
     color: gray;
+    border-radius: 5px;
+    border: solid 2.5px #696969;
 }
 
 input.focus {
