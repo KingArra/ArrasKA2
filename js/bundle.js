@@ -4269,7 +4269,7 @@
 
 
 
-            [{ id: "m", to: "TESTBED Event", delay: !0, remove: "f" }],
+            [{ id: "m", to: "Developer Server", delay: !0, remove: "f" }],
             [
               { id: "f", to: "Defender Mode" },
               { id: "2", to: "2 Team", end: "FFA Maze" },
@@ -4322,7 +4322,7 @@
             id: "2",
             type: "FFA Maze",
             code: "glitch-montreal-m",
-            at: p.glitch('quaint-plump-capacity'),
+            at: p.glitch(''),
             prefer: !0,
            // featured: 1, // For Featured Status.
 
