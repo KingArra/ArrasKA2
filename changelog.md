@@ -2,6 +2,13 @@
 
 
 
+# <u>PATCH 10/7/2020: (2): portal bruh? </u>
+
+- Working on code for Portals.
+
+
+
+
 # <u>PATCH 10/7/2020: (1) </u>
 
 - The TESTBED Event is now over.
