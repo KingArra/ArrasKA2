@@ -143,16 +143,11 @@ input {
 }
 
 #playerNameInput {
-  padding: 10px;
-  border-radius: 5px;
-  border: solid 2.5px #696969;
+  padding: 5px;
+  font-size: larger;
 }
-
 #playerKeyInput {
-    padding: 3px;
-    color: gray;
-    border-radius: 5px;
-    border: solid 2.5px #696969;
+  padding: 5px;
 }
 
 input.focus {
