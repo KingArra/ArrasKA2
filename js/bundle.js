@@ -3432,7 +3432,7 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "KA2 Arras",
+                    "KA2 Arras.io",
                     h + 200,
                     m - 2,
                     15,
@@ -3442,7 +3442,7 @@
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "KA2 Arras",
+                      "KA2 Arras.io",
                       h + 200,
                       m - 84 - 2,
                       15,
@@ -3479,7 +3479,7 @@
                     );
                   } else
                     W[6].draw(
-                      "KA2 Arras",
+                      "KA2 Arras.io",
                       h + 200,
                       m - 42 - 2,
                       15,
