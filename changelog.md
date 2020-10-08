@@ -2,6 +2,14 @@
 
 
 
+# <u>PATCH 10/7/2020: (1) </u>
+
+- The TESTBED Event is now over.
+- Beta Token was leaked again, changed the tokens for servers.
+
+
+
+
 # <u>PATCH 10/5/2020: (1) </u>
 
 - The 2nd TESTBED Event has been Released!
