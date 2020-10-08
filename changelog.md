@@ -6,7 +6,7 @@
 
 - The TESTBED Event is now over.
 - Beta Token was leaked again, changed the tokens for servers.
-
+- Planning to add Portal Assault
 
 
 
