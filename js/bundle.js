@@ -4347,7 +4347,7 @@
             id: "d",
             type: "4TDM Maze",
             code: "glitch-montreal-d",
-            at: p.glitch('short-diamond-pumpkin'),
+            at: p.glitch('courageous-abounding-buckthornpepperberry'),
                     },
           {
             visible: 0,
