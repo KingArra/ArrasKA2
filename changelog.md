@@ -2,14 +2,24 @@
 
 
 
-# <u>PATCH 10/7/2020: (2): portal bruh? </u>
+# <u>PATCH 10/08/2020: (1)</u>
+
+- Replaced 4TDM Maze with 2TDM Maze.
+
+- Added a Center Dominator for extra fun.
+
+
+
+
+
+# <u>PATCH 10/07/2020: (1): portal bruh? </u>
 
 - Working on code for Portals.
 
 
 
 
-# <u>PATCH 10/7/2020: (1) </u>
+# <u>PATCH 10/07/2020: (1) </u>
 
 - The TESTBED Event is now over.
 - Beta Token was leaked again, changed the tokens for servers.
@@ -18,7 +28,7 @@
 
 
 
-# <u>PATCH 10/5/2020: (1) </u>
+# <u>PATCH 10/05/2020: (1) </u>
 
 - The 2nd TESTBED Event has been Released!
 - Use the Token 'beta' to get TESTBED.
