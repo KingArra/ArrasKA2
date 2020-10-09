@@ -4277,7 +4277,7 @@
               { id: "4", to: "4 Team", end: "4TDM" }
             ],
             [
-              { id: "d", to: "4TDM Maze" },
+              { id: "d", to: "2TDM" },
               { id: "m", to: "Mothership", remove: "2" },
               { id: "a", to: "2TDM Protector", remove: "2" }
             ]
@@ -4345,7 +4345,7 @@
           {
             visible: 0,
             id: "d",
-            type: "4TDM Maze",
+            type: "2TDM",
             code: "glitch-montreal-d",
             at: p.glitch('courageous-abounding-buckthornpepperberry'),
                     },
