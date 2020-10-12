@@ -4332,7 +4332,7 @@
             id: "3",
             type: "Defender Mode",
             code: "glitch-montreal-3",
-            at: p.glitch('jasper-cerulean-quark'),
+            at: p.glitch('destroytheattacker'),
            // featured: 1, // For Featured Status.
                 },
           {
