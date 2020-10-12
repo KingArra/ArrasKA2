@@ -4297,7 +4297,7 @@
             id: "4",
             type: "4TDM",
             code: "glitch-montreal-4",
-            at: p.glitch('typical-glossy-palm'),
+            at: p.glitch('laser-twilight-xylocarp'),
             prefer: !0,
               },
           {
