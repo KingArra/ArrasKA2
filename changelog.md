@@ -2,6 +2,14 @@
 
 
 
+# <u>PATCH 10/12/2020: (1)</u>
+
+- Added the Switcheroo.
+- There is no Current Key, so you will have to Press Y or the upgrade.
+
+
+
+
 # <u>PATCH 10/08/2020: (1)</u>
 
 - Replaced 4TDM Maze with 2TDM Maze.
