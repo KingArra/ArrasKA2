@@ -4347,7 +4347,7 @@
             id: "d",
             type: "2TDM",
             code: "glitch-montreal-d",
-            at: p.glitch('courageous-abounding-buckthornpepperberry'),
+            at: p.glitch('season-ultra-trout'),
                     },
           {
             visible: 0,
