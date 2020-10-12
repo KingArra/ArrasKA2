@@ -682,8 +682,8 @@
                         }
                     } //name color
                c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.guiwhite, d.startsWith("[AI]") &&   (d = d.slice(0), d.length && (f = T(l.lgreen, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
-                     if (c.name === 'Ò Î›2') 
-                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.red, d.startsWith("Ò Î›2") &&   (d = d.slice(0), d.length && (f = T(l.red, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
+                     if (c.name === 'Ã’ ÃŽâ€º2') 
+                      c.nameplate && c.id !== A.playerid && (null == c.render.textobjs && (c.render.textobjs = [m(), m()]), d = c.name, f = l.red, d.startsWith("Ã’ ÃŽâ€º2") &&   (d = d.slice(0), d.length && (f = T(l.red, f, .125))), g.globalAlpha = u, c.render.textobjs[0].draw(d, b, a - h - 30, 16, f, "center"), c.render.textobjs[1].draw(H.handleLargeNumber(c.score, !0), b, a - h - 16, 8, f, "center"), g.globalAlpha = 1)
                       
                     }
               if (c.name === 'User') 
@@ -2289,13 +2289,16 @@
               b.died ||
                 b.message ||
                 (b.message =
-                  "The arena has been closed. Please refresh your page to jump to the next game!"));
+                  "The arena has closed. Please try again later once the server restarts."));
+
+
+            
             console.warn("WebSocket closed: ", a);
           };
           g.onerror = function(a) {
             console.warn("WebSocket error", a);
             b.message ||
-              (b.message = "The server is currently closed to the public; No players can join.");
+              (b.message = "The connection was lost for an unknown reason. Maybe check your internet, or if the server is down?");
             b.isInGame = !1;
           };
           return g;
@@ -3356,7 +3359,7 @@
                   );
               }
               {
-                let a = 25,
+                let a = 23,
                   c = (b.screenWidth - 330) / 2,
                   d = b.screenHeight - 20 - a;
                 ia || b.mobile || !b.died || (d -= 110);
@@ -3364,12 +3367,12 @@
                 K(c, c + 330, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                 K(c, c + 330, d + a / 2, a - 3, l.black);
                 K(c, c + 330 * A.__s.getProgress(), d + a / 2, a - 3.5, l.gold);
-                         S.draw("Level " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 4, l.guiwhite, "center", !0);
+                         S.draw("Lvl " + A.__s.getLevel() + " " + M[A.type].name, c + 165, d + a / 2, a - 8, l.guiwhite, "center", !0);
                                 a = 14;
                                 d -= a + 4;
                                 K(c + 33, c + 297, d + a / 2, a - 3 + B.graphical.barChunk, l.black);
                                 K(c + 33, c + 297, d + a / 2, a - 3, l.black);
-                                K(c + 33, c + 330 * (.1 + .8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)), d + a / 2, a - 3.5, l.green);
+                                K(c + 33, c + 330 * (.1 + .8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)), d + a / 2, a - 3.5, l.teal);
                                 C.draw("Score: " + H.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center",
                                     !0);
                                 g.lineWidth = 4;/*
@@ -3377,7 +3380,7 @@
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
                                 } else {*/
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
-                              if (z.name === 'Ò Î›2')N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")//name-color
+                              if (z.name === 'Ã’ ÃŽâ€º2')N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.red, "center")//name-color
                                 //};// name color
                             }
                             b.mobile && L(.8); {
@@ -3432,7 +3435,7 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "KA2 Arras.io",
+                      "KA2-Arras.io",
                     h + 200,
                     m - 2,
                     15,
@@ -3442,7 +3445,7 @@
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "KA2 Arras.io",
+                      "KA2-Arras.io",
                       h + 200,
                       m - 84 - 2,
                       15,
@@ -3474,12 +3477,12 @@
                       h + 200,
                       m - 42,
                       10,
-                      l.blue,
+                      l.guiwhite,
                       "right"
                     );
                   } else
                     W[6].draw(
-                      "KA2 Arras.io",
+                      "KA2-Arras.io",
                       h + 200,
                       m - 42 - 2,
                       15,
@@ -3493,13 +3496,14 @@
                     10,
                     10 < J.rendertime ? l.guiwhite : l.orange,
                     "right"
+                    
                   );
                   W[1].draw(
                     "Server Speed: " + (100 * A.fps).toFixed(2) + "%",
                     h + 200,
                     m - 14,
                     10,
-                    1 === A.fps ? l.guiwhite : l.orange,
+                    1 === A.fps ? l.guiwhite : l.orange, 
                     "right"
                   );
                   W[0].draw(
@@ -3523,7 +3527,7 @@
                                 let c = b.screenWidth - 200 - 20,
                                     d = 48;
                                 b.mobile && (d += (b.canSkill ? 200 / 3 / 1.4 * a.get() : 0) + (b.canUpgrade && 40 + 114 * A.upgrades.length > 1.4 * c ? 100 / 1.4 * k.get() : 0));
-                                0 < O.data.length && V.draw("Leaderboard", Math.round(c + 100) + .5, Math.round(d - 10) + .5, 18,
+                                0 < O.data.length && V.draw("Scoreboard", Math.round(c + 100) + .5, Math.round(d - 10) + .5, 18,
                                     l.guiwhite, "center");
                                 for (let a = 0; a < O.data.length && (!b.mobile || 6 > a); a++) {
                                     let b = O.data[a];
@@ -3531,7 +3535,7 @@
                                     K(c, c + 200, d + 7, 11, l.grey);
                                     K(c, c + 200 * Math.min(1, b.score / na), d + 7, 10.5, b.barColor);
                                     ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.guiwhite, "center", !0);
-                                  if (b.label.includes('Ò Î›2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
+                                  if (b.label.includes('Ã’ ÃŽâ€º2'))ca[a].draw(b.label + ": " + H.handleLargeNumber(Math.round(b.score)), c + 100, d + 7, 9, l.red, "center", !0);
 
 
 
@@ -3826,7 +3830,7 @@
               -Math.PI / 4,
               !0
             );
-            a.draw("lol you died", d, n - 80, 8, l.guiwhite, "center");
+            a.draw("here lies your grave", d, n - 80, 8, l.guiwhite, "center");
             e.draw(
               "Level " + A.__s.getLevel() + " " + M[A.type].name,
               d - 170,
@@ -3993,6 +3997,7 @@
               15,
               l.red,
               "center"
+           
             );
           };
         })();
@@ -4956,7 +4961,7 @@
                   break;
                 case a.KEY_CONTROLBASE:
                   a.messages.push({
-                    text: "Please Enter a Token to control a Base.",
+                    text: "red= Permission Denied: Kicking...",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
