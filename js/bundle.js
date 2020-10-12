@@ -3931,15 +3931,27 @@
           m();
           var c = [
             [
+
+
               "Tip: You can view and edit your keybinds in the options menu.",
               "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
+              "Press E enable/disable to autofire.",
+              "Press C to enable/disable autospin.",
+              "Press O to enable/disable God Mode.",
+              "If there is an issue in the game, report it on the KA2 Discord!"
+              "The second booster is also known as the Cop."
+
+
+
+
+
             ],
             [
               "Tip: You can have the shield and health bar be separated by going to the options menu.",
               "Tip: If KA2 Arras is having a low frame rate, you can try enabling low graphics in the options menu.",
               "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
               "Tip: If you entered a Developer Token, Press H to control a Base Protector!",
-              "Join the KA2 Discord!"
+              "Join the KA2 Discord to revieve updates for new tanks and gamemodes!"
             ],
             [
               "Subscribe to King Arras 2!",
