@@ -2,6 +2,15 @@
 
 
 
+# <u>PATCH 10/12/2020: I CAN'T SEE THEM??! (1)</u>
+
+- Added the Stiolic and the Stiolic MK.II
+- Both bosses include a Switcheroo (Ba) that shoots invisible Bullets.
+
+
+
+
+
 # <u>PATCH 10/12/2020: (1)</u>
 
 - Added the Switcheroo.
