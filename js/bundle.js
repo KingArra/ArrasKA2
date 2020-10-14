@@ -4327,7 +4327,7 @@
             id: "2",
             type: "FFA Maze",
             code: "glitch-montreal-m",
-            at: p.glitch('boss-rush-ka2-arras'),
+            at: p.glitch(''),
             prefer: !0,
            // featured: 1, // For Featured Status.
 
